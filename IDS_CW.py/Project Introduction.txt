@@ -1,0 +1,139 @@
+CourseWork of Introduction to Data Science, Autumn 2020
+
+Introduction to Data Science, Autumn 2020
+
+COURSEWORK
+
+Deadline: Friday 11th December 2020, 4pm
+
+Submission: Submit the report to Turnitin on Moodle and submit the zip file which includes your code or program file to the file folder on Moodle, Heading: "[IDS Coursework] your_ID + your_companyname"
+
+Background:
+Congratulations! You just form the XXX company, a data analytics startup company that want to strive for success in the market. The core four members include the team leader, the data engineer, the business analyst and the data scientist.
+
+As the first project, you have been contacting YYY company for a while. During those meetings, you have identified the problem they are facing with and the requirement they have. Meanwhile, you have also obtained a sample dataset for testing. Your task, as a consultant is to analyze the historical dataset, and generate a model that can be used to solve their business problem (which is a binary classification problem).
+
+From robustly testing, justifying and unpacking your selected model (guided by their requirements), we also want to receive business recommendations as to what the company should focus on in the future.
+
+We will expect a report with a maximum of 3000 words (or 12 pages equivalent) and a model implementation (in Orange3 or Python) - please see the Formal Task list further on this document for exact specifications.
+
+Project Phases (What to do):
+2.1 Finding a business problem
+
+The problem here is defined as any general business problem that has significant value to stakeholders in general. Examples not only include churn rating problem, fraud detection problem and customer segmentation problem, but also include predicting weather, predicting children IQ or even predicting mental health status. You are expected to find your own problems based on your intern/personal experience or through consultation with individuals who have relevant experiences (e.g. your family members, your friends).
+
+Note: find a binary classification problem.
+
+2.2 Finding a dataset for the business problem
+
+Based on the key business problem, you will try to find a relevant dataset over the Internet. There are numerous datasets available online. Google ‘free dataset download’ will give you some basic ideas where to look for the dataset. Some popular places you may look your dataset include ‘Github’, ‘KDnuggets’ and ‘Kaggle’. In previous years, students also get data from their personal contacts (family members, organizations they have connections), or their intern experience.
+
+Note: We will provide some datasets for students who really have difficulties of searching. However, your result will also be significantly affected because 1) you are facing fierce competition with others using the same dataset; 2) it will be difficult for you to show your unique findings or insights from the dataset and 3) the tutors may get tired of it.
+
+2.3 Build data models
+
+This will require a stage of basic statistical analysis (e.g. What does this dataset look like? Any significant issues or missing data? Is data highly skewed?), a stage of model selection, a stage of final model training, and then an analysis of evaluations. At the evaluation stage, critically evaluate your method based on the principles we learned in this module (e.g. overfitting and decision analytic thinking). You may use Orange3 or Python for this coursework.
+
+2.4 Present your results
+
+As a data analytics startup company, now you need to present your results to the client (or stakeholders). Design a friendly, useful interface that shows your results to the managers (or stakeholders). Moreover, explain the results in the corresponding business context. Also, reflect on the limitations you have and how you may improve.
+
+Formal Task Specification
+● You must clearly identify the business context and business problem.
+
+● Your dataset should be big enough (at least thousands of records), and with sufficient complication (at least 10 variables).
+
+● You must provide a classification approach to solve the problem. This will require a stage of statistical analysis, a stage of model selection, a stage of final model training, and then an analysis of implications. You may use any software you desire for your analysis, but your model must be produced in Orange3 or Python for this coursework.
+
+● Your submission will consist of a zip of the files for your model, and a report of a maximum of 3000 words (or 12 pages equivalent).
+
+Report Structure (What to write)
+Your report must strictly adhere to the following sections:
+
+Section A: Business Understanding [15 marks available]
+
+❏ In this section, you should briefly introduce the context of your client as well as the problem
+
+they have. Why do you think it is important? What did people normally do nowadays? What’s your target variable? Based on your research, what are the potential factors that are related to the target variable?
+
+Section B: Data Exploration [15 marks available]
+
+❏ In this section, you should explain the dataset you have, especially what are the variables you collected and what do they mean. This could be presented through a data dictionary format.
+
+❏ Next you must provide a summary statistical analysis of the dataset. Consider how each input feature present is related to the output variable (“y”). Additionally, you may want to examine how they relate to each other. Please feel free to use tables, bar charts, or scatter graphs depending on the feature - it is totally up to you.
+
+❏ Note, the point here is to be informative rather than overloading your client with information, so also summarize the key analytical points you have observed in the dataset.
+
+Section C: Model Building and Evaluation [30 marks available]
+
+❏ Select at least 3 different classification model classes (selecting only from those we cover in
+
+lectures: Logistic Regression, Decision Trees, Random Forests, Naive Bayes Classifier and knearest neighbours), and assess their effectiveness in modelling your historical training dataset against a point predictor benchmark (i.e. the mode of yes/no’s). This should be undertaken in Orange3 or Python.
+
+❏ In your report, detail the models selected to test and why they were chosen. Detail the parameterizations you chose for each model, explaining why you have chosen the parameters that you have. ❏ Describe the evaluation strategy you chose to compare models to each other (including evaluation statistics and performance measures as you see fit).
+
+❏ It is expected that your analysis of the outputs of each of the models will be examined in terms of the confusion matrices that they produce.
+
+Section D: Implementation and Business Case Recommendations [20 marks available]
+
+❏
+
+Given the analysis in Section C, justify a ‘winning’ classifier and why you have selected it for your final model, paying close attention to the business case in your consideration of measuring success.
+
+❏ Having selected the single, best performing model, you now need to package them in a separate file with the test set. Please briefly describe the resulting files.
+
+❏ Please also supply brief instructions on how the recipient should use your submitted model files to process the test set.
+
+❏ Your report should conclude with summary of the business case to the client, providing
+
+business recommendations for further potential analysis. Also reflect on the limitations of your dataset and data collection? What additional data can help you improve your modelling?
+
+Further Available Marks [20 marks available]:
+
+❏ Overall Presentation of your report, its argument and professionalism
+
+❏ The standard of your submitted Evaluation/Final modelling workflows file
+
+❏ Applying more advanced data mining techniques that outperform traditional methods
+
+Submission
+→ The team leader is in charge of the final submission.
+
+→ In your submission please attach the following two files:
+
+Your Final Report (maximum 3000 words / 12 pages).
+
+A zip of your Original data File, test dataset, Evaluation Workflow files, Final Model Workflow file, as well as other relevant files.
+
+→ Submit your Final Report on Moodle through Turnitin:
+
+→ Submit your zip file on Moodle through Assignments:
+
+→ Submission must be received by:
+
+→ Submissions must have a proper title:
+
+Potential Penalties:
+
+4pm on Friday 11th December.
+
+[IDS Coursework] your_studentID + your_companyname
+
+→ Late submissions will lose 5% from their final mark per day.
+
+→ Submitted reports over 3000 words /12 pages will be received, but only the first 3000 words / 12pages will be assessed. 6. Important Note on Plagiarism
+
+All code and workflows will also be examined to ensure there is no repetition between submissions, so while you are able to share ideas and strategies, the implementation and analysis must be 100% your own individual work. Any plagiarized work will immediately receive zero marks and notified immediately to the School.
+
+Some Additional Tips!
+● Throughout this coursework, showing thought processes and understanding of how you assess a model in light of the business case is more important than the final predictive test result.
+
+● Similarly, and as reflected in the mark scheme, illustrating your understanding of robust model evaluation and comparison is again more important than the final implementation for this coursework.
+
+● You may use any analysis tools to formulate your report, but your submitted model must be implemented in Orange or Python. You can assume the recipient is having these software packages pre-installed. Any further requirements must be clearly specified in your submission with instructions.
+
+● Note the word limit, and the available marks for each section to assess how much time and effort to place in each.
+
+● Note that presentation of your work is also being assessed. This is a formal report you are providing and therefore it should be formatted accordingly.
+
+● If you choose to illustrate a decision tree - do so for a reason. No one want to see a page of 100’s of nodes, so think how best to present the insights it holds!
